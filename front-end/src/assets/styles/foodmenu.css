@@ -1,0 +1,40 @@
+.food-menu-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.food-menu-container h2{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.food-menu-container hr{
+    height: 2px;
+    margin: 10px 0;
+    background-color: #2222;
+    border: none;
+}
+.food-menu-text{
+    max-width: 60%;    
+    font-weight: 300;
+}
+.food-menu-list{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-between;
+    margin: 20px 0;
+    text-align: center;
+    overflow-x: scroll;
+}
+.food-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.food-menu-list-item img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.food-menu-list-item p{
+    margin-top: 15px;
+}
