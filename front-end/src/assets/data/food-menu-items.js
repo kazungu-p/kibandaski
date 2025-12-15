@@ -31,8 +31,8 @@ const food_menu_items = [
     },
     {
         key: 7,
-        item_image:"/images/toast.jpg",
-        menu_name:"toast"
+        item_image:"/images/cake.jpg",
+        menu_name:"cake"
     },
     {
         key: 8,
