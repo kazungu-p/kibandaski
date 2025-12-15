@@ -47,6 +47,18 @@ header{
     padding-bottom: 2px;
     border-bottom: 2px solid black;
 }
+.search-items-container{
+    position: relative;
+}
+.search-items-container .float{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: orangered;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
 
 
 .hamburger{

@@ -1,7 +1,14 @@
 import React from "react";
+import Header from "../components/header";
+import FoodMenu from "../components/FoodMenu";
 
 function Home(){
-    return
+    return(
+        <>
+        <Header />
+        <FoodMenu />
+        </>
+    )
 }
 
 export default Home;
