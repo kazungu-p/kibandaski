@@ -43,6 +43,15 @@
     padding: 2px;
     border: 2px solid orangered;
 }
-@media screen and (max-width: 1050px) {
-    
+@media screen and (max-width: 750px) {
+    .food-menu-container h2{
+        font-size: 2em;
+    }
+    .food-menu-text{
+        max-width: 90%;
+        font-size: 25px;
+    }
+    .food-menu-list-item p{
+        font-size: 25px;
+    }
 }

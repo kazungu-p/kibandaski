@@ -64,7 +64,7 @@ header{
 .hamburger{
     display: none;
 }
-@media screen and (max-width:1050px){
+/* @media screen and (max-width:1050px){
     .nav-links{
         gap: 20px;
         font-size: 17px;
@@ -94,10 +94,21 @@ header{
         padding: 7px 20px;
         font-size: 15px;
     }
-}
-@media screen and (max-width:7500px){
+} */
+@media screen and (max-width:750px){
+
     .nav-links{
         display: none;
     }
-   
+    .navbar h1{
+        font-size: 40px;
+    }
+
+   .nav-right button{
+    display: none;
+   }
+   .nav-right img{
+    width: 50px;
+   }
+
 }
