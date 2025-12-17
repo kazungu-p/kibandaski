@@ -5,7 +5,7 @@ import "../assets/styles/navbar.css"
 function Navbar() {
 
     const [menuOpen, setMenuOpen] = useState(false);
-    const [activeMenu, setActiveMenu] =useState("mobile-app")
+    const [activeMenu, setActiveMenu] =useState("home")
     function toggleMenu() {
         setMenuOpen(!menuOpen);
     }
