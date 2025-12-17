@@ -20,6 +20,7 @@ header {
 .nav-links {
   list-style: none;
   font-size: 15px;
+  cursor: pointer;
 }
 .nav-links,
 .nav-right {
@@ -42,11 +43,11 @@ header {
 .nav-right button:hover {
   border: 1px solid orangered;
 }
-.nav-item {
+/* .nav-item {
   text-decoration: none;
   color: black;
-}
-.nav-item.active {
+} */
+.nav-links .active {
   padding-bottom: 2px;
   border-bottom: 2px solid black;
 }
