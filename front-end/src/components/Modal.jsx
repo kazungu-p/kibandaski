@@ -6,7 +6,7 @@ function Modal({setModalOpen}) {
     const [authMode, setAuthMode] = useState("Login")
 
     return (
-        <div className="modal-container" onClick={()=>{setModalOpen(false)}}>
+        <div className="modal-container">
             <form>
                 <div className="modal-title">
                     <h2>{authMode}</h2>

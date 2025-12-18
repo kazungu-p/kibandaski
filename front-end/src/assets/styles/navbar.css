@@ -9,6 +9,7 @@ header {
   font-family: "Dancing Script", cursive;
 }
 .navbar {
+  display: flex;
   justify-content: space-between;
 }
 .navbar,
@@ -94,7 +95,9 @@ header {
   .navbar h1 {
     font-size: 18px;
   }
-
+  .nav-right{
+    gap: 15px;
+  }
   .nav-right button {
     padding: 8px 15px;
   }
