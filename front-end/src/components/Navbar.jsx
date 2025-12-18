@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {Link } from "react-router-dom"
 import "../assets/styles/navbar.css"
 
-function Navbar() {
+function Navbar({setModalOpen}) {
 
     const [menuOpen, setMenuOpen] = useState(false);
     const [activeMenu, setActiveMenu] =useState("home")
@@ -30,7 +30,7 @@ function Navbar() {
                             <img src="/images/bag-shopping-solid-full.svg" alt="shopping bag image" />
                             <div className="float"></div>
                         </div>
-                        <button>Sign in</button>
+                        <button onClick={()=>setModalOpen(true)}>Sign in</button>
                         <div className="hamburger" onClick={toggleMenu}>
                             {menuOpen ? "\u2715" : "\u2630"}
                         </div>

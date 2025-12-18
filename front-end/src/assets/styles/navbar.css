@@ -43,10 +43,7 @@ header {
 .nav-right button:hover {
   border: 1px solid orangered;
 }
-/* .nav-item {
-  text-decoration: none;
-  color: black;
-} */
+
 .nav-links .active {
   padding-bottom: 2px;
   border-bottom: 2px solid black;
@@ -95,11 +92,11 @@ header {
     z-index: 1;
   }
   .navbar h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .nav-right button {
-    display: none;
+    padding: 8px 15px;
   }
   .nav-right img {
     width: 25px;

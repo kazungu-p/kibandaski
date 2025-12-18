@@ -1,0 +1,66 @@
+.modal-container{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+}
+.modal-container form{
+    place-self: center;
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+    animation: fadeIn 0.5s;
+}
+.modal-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-title span{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 300;
+    transition: 0.5s;
+}
+.modal-title span:hover{
+    transform: rotateZ(100deg);
+}
+.modal-input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.modal-input input{
+    outline: none;
+    border: 1px solid #2222;
+    padding: 10px;
+    border-radius: 8px;
+}
+.modal-container form button{
+    border: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.modal-condition{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+.modal-condition input{
+    margin-top: 4px;
+}
+.modal-container p span{
+    color: orangered;
+    cursor: pointer;
+}

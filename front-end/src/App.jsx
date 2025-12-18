@@ -6,14 +6,18 @@ import Home from './pages/Home'
 import Cart from './pages/Cart'
 import PlaceOrder from './pages/PlaceOrder'
 import Footer from './components/Footer'
+import Modal from './components/Modal'
 
 function App() {
 
+  const[modalOpen, setModalOpen] = useState(false);
+
   return (
     <>
+    {modalOpen? <Modal setModalOpen={setModalOpen}/> : <></>}
       <div className="app">
         <Router>
-          <Navbar />
+          <Navbar setModalOpen={setModalOpen} />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/cart' element={<Cart />} />
