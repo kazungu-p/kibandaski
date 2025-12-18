@@ -3,14 +3,14 @@ import "../assets/styles/modal.css"
 
 function Modal({setModalOpen}) {
 
-    const [authMode, setAuthMode] = useState("Login")
+    const [authMode, setAuthMode] = useState("Sign Up")
 
     return (
-        <div className="modal-container">
-            <form>
+        <div className="modal-container" onClick={()=>setModalOpen(false)}>
+            <form onClick={(e)=>e.stopPropagation()}>
                 <div className="modal-title">
                     <h2>{authMode}</h2>
-                    <span onClick={()=>setModalOpen(false)}>X</span>
+                    <span onClick={()=>setModalOpen(false)}>&times;</span>
                 </div>
                 <div className="modal-input">
                     {authMode === "Login" ? <></> : <input type="text" placeholder="Full Name" required />}

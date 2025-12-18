@@ -24,13 +24,13 @@
     align-items: center;
 }
 .modal-title span{
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     font-weight: 300;
     transition: 0.5s;
 }
 .modal-title span:hover{
-    transform: rotateZ(100deg);
+    transform: rotate(90deg);
 }
 .modal-input{
     display: flex;

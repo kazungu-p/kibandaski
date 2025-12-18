@@ -17,7 +17,7 @@ function Navbar({setModalOpen}) {
         <header>
             <nav>
                 <div className="navbar">
-                    <h1>Kibandaski.</h1>
+                    <Link to="/"><h1 >Kibandaski.</h1></Link>
                     <ul className={`nav-links ${menuOpen? "active": ""}`}>
                         <Link onClick={()=>{setActiveMenu("home"); closeMenu()}} className={activeMenu==="home"? "active":""}>Home</Link>
                         <a href="#food-menu-container" onClick={()=>{setActiveMenu("menu"); closeMenu()}} className={activeMenu==="menu"? "active":""}>Menu</a>
@@ -27,7 +27,7 @@ function Navbar({setModalOpen}) {
                     <div className="nav-right">
                         <img src="/images/magnifying-glass-solid-full.svg" alt="magnifying glass image" />
                         <div className="search-items-container">
-                            <img src="/images/bag-shopping-solid-full.svg" alt="shopping bag image" />
+                           <Link to="/cart"> <img src="/images/bag-shopping-solid-full.svg" alt="shopping bag image" /></Link>
                             <div className="float"></div>
                         </div>
                         <button onClick={()=>setModalOpen(true)}>Sign in</button>

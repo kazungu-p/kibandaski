@@ -29,7 +29,7 @@ function Footer(){
                     <h2>Get in touch</h2>
                     <ul>
                         <li>+25412345678</li>
-                        <li>info@kibandaski.com</li>
+                        <li>info.kibandaski@gmail.com</li>
                     </ul>
 
                 </div>

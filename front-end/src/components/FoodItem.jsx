@@ -23,7 +23,7 @@ function FoodItem({id,name, price, description, image}){
                     <img src="/images/rating.png" alt="" />
                 </div>
                 <p className="food-item-description">{description}</p>
-                <p className="food-item-price">KES {price}</p>
+                <p className="food-item-price">KES {price.toLocaleString()}</p>
                 
             </div>
         </div>

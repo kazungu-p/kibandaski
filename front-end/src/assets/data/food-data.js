@@ -2,7 +2,7 @@ export const food_data = [
     {
         id: 1,
         image:"images/pizza1.jpg",
-        price: "1,200",
+        price: 1200,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "pizza",
         name:"Margherita"
@@ -10,7 +10,7 @@ export const food_data = [
     {
         id: 2,
         image:"/images/pizza2.jpg",
-        price: "1,500",
+        price: 1500,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "pizza",
         name:"Pepperoni"
@@ -18,7 +18,7 @@ export const food_data = [
     {
         id: 3,
         image:"/images/pizza3.jpg",
-        price: "1,800",
+        price: 1800,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "pizza",
         name:"BBQ Chicken"
@@ -26,7 +26,7 @@ export const food_data = [
     {
         id: 4,
         image:"/images/pizza4.jpg",
-        price: "800",
+        price: 800,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "pizza",
         name:"Hawaiian"
@@ -34,7 +34,7 @@ export const food_data = [
     {
         id: 5,
         image:"/images/cheese1.jpg",
-        price: "1,400",
+        price: 1400,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "cheese",
         name:"Mozzarella"
@@ -42,7 +42,7 @@ export const food_data = [
     {
         id: 6,
         image:"/images/cheese2.jpg",
-        price: "1,000",
+        price: 1000,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "cheese",
         name: "Cheddar"
@@ -50,7 +50,7 @@ export const food_data = [
     {
         id: 7,
         image:"/images/cheese3.jpg",
-        price: "750",
+        price: 750,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "cheese",
         name: "Parmesan",
@@ -58,7 +58,7 @@ export const food_data = [
     {
         id: 8,
         image:"/images/cheese4.jpg",
-        price: "500",
+        price: 500,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "cheese",
         name: "Gouda"
@@ -74,7 +74,7 @@ export const food_data = [
     {
         id: 10,
         image:"/images/chicken2.jpg",
-        price: "1,500",
+        price: 1500,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "chicken",
         name: "Chicken Tikka"
@@ -82,7 +82,7 @@ export const food_data = [
     {
         id: 11,
         image:"/images/chicken3.jpg",
-        price: "2,500",
+        price: 2500,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "chicken",
         name: "Fried Chicken"
@@ -90,7 +90,7 @@ export const food_data = [
     {
         id: 12,
         image:"/images/chicken4.jpg",
-        price: "1,800",
+        price: 1800,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "chicken",
         name: "Chicken Alfredo"
@@ -98,7 +98,7 @@ export const food_data = [
     {
         id: 13,
         image:"/images/salad1.jpg",
-        price: "300",
+        price: 300,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "salad",
         name: "Caesar Salad"
@@ -106,7 +106,7 @@ export const food_data = [
     {
         id: 14,
         image:"/images/salad2.jpg",
-        price: "350",
+        price: 350,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "salad",
         name: "Greek Salad"
@@ -114,7 +114,7 @@ export const food_data = [
     {
         id: 15,
         image:"/images/salad3.jpg",
-        price: "250",
+        price: 250,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "salad",
         name: "Garden Salad"
@@ -122,7 +122,7 @@ export const food_data = [
     {
         id: 16,
         image:"/images/salad4.jpg",
-        price: "400",
+        price: 400,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "salad",
         name: "Chicken Salad"
@@ -130,7 +130,7 @@ export const food_data = [
     {
         id: 17,
         image:"/images/burger1.jpg",
-        price: "850",
+        price: 850,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "burger",
         name: "Beef Burger"
@@ -138,7 +138,7 @@ export const food_data = [
     {
         id: 18,
         image:"/images/burger2.jpg",
-        price: "600",
+        price: 600,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
         category: "burger",
         name: "Cheeseburger"
@@ -146,7 +146,7 @@ export const food_data = [
     {
         id: 19,
         image:"/images/burger3.jpg",
-        price: "1,200",
+        price: 1200,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
         category: "burger",
         name: "Chicken Burger"
@@ -154,7 +154,7 @@ export const food_data = [
     {
         id: 20,
         image:"/images/burger4.jpg",
-        price: "700",
+        price: 700,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
         category: "burger",
         name: "Veggie Burger"
@@ -162,7 +162,7 @@ export const food_data = [
     {
         id: 21,
         image:"/images/biryani1.jpg",
-        price: "1,200",
+        price: 1200,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "biryani",
         name: "Chicken Biryani"
@@ -170,7 +170,7 @@ export const food_data = [
     {
         id: 22,
         image:"/images/biryani2.jpg",
-        price: "1,600",
+        price: 1600,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "biryani",
         name: "Beef Biryani"
@@ -178,7 +178,7 @@ export const food_data = [
     {
         id: 23,
         image:"/images/biryani3.jpg",
-        price: "2,000",
+        price: 2000,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "biryani",
         name: "Mutton Biryani"
@@ -186,7 +186,7 @@ export const food_data = [
     {
         id: 24,
         image:"/images/biryani4.jpg",
-        price: "1,000",
+        price: 1000,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "biryani",
         name: "Vegetable Biryani"
@@ -194,7 +194,7 @@ export const food_data = [
     {
         id: 25,
         image:"/images/cake1.jpg",
-        price: "1400",
+        price: 1400,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "cake",
         name: "Vanilla Cake"
@@ -202,7 +202,7 @@ export const food_data = [
     {
         id: 26,
         image:"/images/cake2.jpg",
-        price: "1,700",
+        price: 1700,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "cake",
         name: "Chocolate Cake"
@@ -210,7 +210,7 @@ export const food_data = [
     {
         id: 27,
         image:"/images/cake3.jpg",
-        price: "1,800",
+        price: 1800,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "cake",
         name: "Red Velvet Cake"
@@ -218,7 +218,7 @@ export const food_data = [
     {
         id: 28,
         image:"/images/cake4.jpg",
-        price: "2500",
+        price: 2500,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "cake",
         name: "Black Forest Cake"
@@ -226,7 +226,7 @@ export const food_data = [
     {
         id: 29,
         image:"/images/pasta1.jpg",
-        price: "1,200",
+        price: 1200,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "pasta",
         name: "Spaghetti Bolognese"
@@ -234,7 +234,7 @@ export const food_data = [
     {
         id: 30,
         image:"/images/pasta2.jpg",
-        price: "1,350",
+        price: 1350,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "pasta",
         name: "Fettuccine Alfredo"
@@ -242,7 +242,7 @@ export const food_data = [
     {
         id: 31,
         image:"/images/pasta3.jpg",
-        price: "1,700",
+        price: 1700,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "pasta",
         name: "Penne Arrabbiata"
@@ -250,7 +250,7 @@ export const food_data = [
     {
         id: 32,
         image:"/images/pasta4.jpg",
-        price: "1,500",
+        price: 1500,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "pasta",
         name: "Lasagna"
@@ -258,7 +258,7 @@ export const food_data = [
     {
         id: 33,
         image:"/images/pasta5.jpg",
-        price: "2,600",
+        price: 2600,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         category: "pasta",
         name: "Carbonara"
