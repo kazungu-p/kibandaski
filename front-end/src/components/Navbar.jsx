@@ -1,36 +1,38 @@
-import React, { useState } from "react";
-import {Link } from "react-router-dom"
+import React, { useContext, useState } from "react";
+import { Link } from "react-router-dom"
 import "../assets/styles/navbar.css"
+import { StoreContext } from "../context/StoreContext";
 
-function Navbar({setModalOpen}) {
-
+function Navbar({ setModalOpen }) {
+    const { getTotalCartAmount } = useContext(StoreContext);
     const [menuOpen, setMenuOpen] = useState(false);
-    const [activeMenu, setActiveMenu] =useState("home")
+    const [activeMenu, setActiveMenu] = useState("home")
     function toggleMenu() {
         setMenuOpen(!menuOpen);
     }
-    function closeMenu(){
+    function closeMenu() {
         setMenuOpen(false);
     }
 
     return (
+
         <header>
             <nav>
                 <div className="navbar">
                     <Link to="/"><h1 >Kibandaski.</h1></Link>
-                    <ul className={`nav-links ${menuOpen? "active": ""}`}>
-                        <Link onClick={()=>{setActiveMenu("home"); closeMenu()}} className={activeMenu==="home"? "active":""}>Home</Link>
-                        <a href="#food-menu-container" onClick={()=>{setActiveMenu("menu"); closeMenu()}} className={activeMenu==="menu"? "active":""}>Menu</a>
-                        <a href="#app-download" onClick={()=>{setActiveMenu("mobile-app"); closeMenu()}} className={activeMenu==="mobile-app"? "active":""}>Mobile App</a>
-                        <a href="#footer" onClick={()=>{setActiveMenu("contact-us"); closeMenu()}} className={activeMenu==="contact-us"? "active":""}>Contact Us</a>
+                    <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
+                        <Link onClick={() => { setActiveMenu("home"); closeMenu() }} className={activeMenu === "home" ? "active" : ""}>Home</Link>
+                        <a href="#food-menu-container" onClick={() => { setActiveMenu("menu"); closeMenu() }} className={activeMenu === "menu" ? "active" : ""}>Menu</a>
+                        <a href="#app-download" onClick={() => { setActiveMenu("mobile-app"); closeMenu() }} className={activeMenu === "mobile-app" ? "active" : ""}>Mobile App</a>
+                        <a href="#footer" onClick={() => { setActiveMenu("contact-us"); closeMenu() }} className={activeMenu === "contact-us" ? "active" : ""}>Contact Us</a>
                     </ul>
                     <div className="nav-right">
                         <img src="/images/magnifying-glass-solid-full.svg" alt="magnifying glass image" />
                         <div className="search-items-container">
-                           <Link to="/cart"> <img src="/images/bag-shopping-solid-full.svg" alt="shopping bag image" /></Link>
-                            <div className="float"></div>
+                            <Link to="/cart"> <img src="/images/bag-shopping-solid-full.svg" alt="shopping bag image" /></Link>
+                            <div className={getTotalCartAmount() === 0 ? "" : "float"}></div>
                         </div>
-                        <button onClick={()=>setModalOpen(true)}>Sign in</button>
+                        <button onClick={() => setModalOpen(true)}>Sign in</button>
                         <div className="hamburger" onClick={toggleMenu}>
                             {menuOpen ? "\u2715" : "\u2630"}
                         </div>

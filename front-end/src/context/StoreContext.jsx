@@ -4,6 +4,8 @@ import { food_data } from "../assets/data/food-data";
 export const StoreContext = createContext(null);
 
 function StoreContextProvider(props) {
+    const deliverFee =300;
+
     const [cartItems, setCartItems] = useState({});
 
     const addToCart = (itemId) => {
@@ -42,7 +44,8 @@ function StoreContextProvider(props) {
         setCartItems,
         addToCart,
         removeFromCart,
-        getTotalCartAmount
+        getTotalCartAmount,
+        deliverFee
     }
     return (
         <StoreContext.Provider value={contextValue}>
