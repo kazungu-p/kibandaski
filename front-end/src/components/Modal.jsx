@@ -1,9 +1,18 @@
 import React, { useState } from "react";
 import "../assets/styles/modal.css"
+import { useEffect } from "react";
 
 function Modal({setModalOpen}) {
 
-    const [authMode, setAuthMode] = useState("Sign Up")
+    const [authMode, setAuthMode] = useState("Sign Up");
+
+    useEffect(()=>{
+        document.body.style.overflow = "hidden";
+
+        return ()=>{
+            document.body.style.overflow ="unset";
+        };
+    }, []);
 
     return (
         <div className="modal-container" onClick={()=>setModalOpen(false)}>
